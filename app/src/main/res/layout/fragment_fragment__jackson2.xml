@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mj"
+    tools:context="com.example.archit.gomusiclive.Fragment_Jackson">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get LIve Videos"
+            android:id="@+id/btnMjLive"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="103dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Music Videos"
+            android:id="@+id/btnmjmusic"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Detaiils"
+            android:id="@+id/BtnMjWiki"
+            android:layout_below="@+id/btnmjmusic"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="68dp" />
+    </RelativeLayout>
+
+</FrameLayout>

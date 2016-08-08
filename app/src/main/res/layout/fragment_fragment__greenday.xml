@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenday"
+    tools:context="com.example.archit.gomusiclive.Fragment_Greenday">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Live Videos"
+           android:onClick="getLivegd"
+           android:id="@+id/btnLiveGd"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginTop="110dp" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Music Videos"
+           android:onClick="getMusicgd"
+           android:id="@+id/btnMusicGd"
+           android:layout_centerVertical="true"
+           android:layout_alignParentStart="true" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Get Details"
+           android:onClick="getWikigd"
+           android:id="@+id/BtnDetailGd"
+           android:layout_below="@+id/btnMusicGd"
+           android:layout_alignParentStart="true"
+           android:layout_marginTop="77dp" />
+   </RelativeLayout>
+
+</FrameLayout>

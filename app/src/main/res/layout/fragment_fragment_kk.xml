@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kk"
+    tools:context="com.example.archit.gomusiclive.Fragment_kk">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Live Shows"
+            android:id="@+id/btnGetLivekk"
+            android:onClick="getLivekk"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="100dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Music Videos"
+            android:id="@+id/btnGetMusic"
+            android:onClick="getMusickk"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Artist Details"
+            android:id="@+id/btnGetArtistkk"
+            android:onClick="getWikikk"
+            android:layout_below="@+id/btnGetMusic"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="64dp" />
+    </RelativeLayout>
+
+</FrameLayout>

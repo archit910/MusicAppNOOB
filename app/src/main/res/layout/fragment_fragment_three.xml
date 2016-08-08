@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doorsdown"
+    tools:context="com.example.archit.gomusiclive.Fragment_three">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Get Live Music"
+           android:onClick="getLive3"
+           android:id="@+id/btnGetLIveth"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginTop="110dp" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Get Music Videos"
+           android:onClick="getMusic3"
+           android:id="@+id/btnGetMusicth"
+           android:layout_centerVertical="true"
+           android:layout_alignParentStart="true" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Get Details"
+           android:onClick="getWiki3"
+           android:id="@+id/btnGetDetailsth"
+           android:layout_below="@+id/btnGetMusicth"
+           android:layout_alignParentStart="true"
+           android:layout_marginTop="73dp" />
+   </RelativeLayout>
+</FrameLayout>

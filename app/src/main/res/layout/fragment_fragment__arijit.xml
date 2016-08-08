@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arijit"
+    tools:context="com.example.archit.gomusiclive.Fragment_Arijit">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Get Live Shows"
+        android:onClick="getLiveArijit"
+           android:id="@+id/btnGetLiveAr"
+           android:layout_marginTop="59dp"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentStart="true" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Get Music Videos"
+           android:id="@+id/btnGetVideoAr"
+           android:layout_marginTop="68dp"
+           android:onClick="getMusicArijit"
+           android:layout_below="@+id/btnGetLiveAr"
+           android:layout_alignParentStart="true" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Get Artists Details"
+           android:id="@+id/btnArtistDetailsAr"
+           android:onClick="getWikiArijit"
+           android:layout_below="@+id/btnGetVideoAr"
+           android:layout_alignStart="@+id/btnGetVideoAr"
+           android:layout_marginTop="89dp" />
+   </RelativeLayout>
+
+</FrameLayout>

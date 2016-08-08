@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mfive"
+    tools:context="com.example.archit.gomusiclive.mfive">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get LIve Videos"
+            android:id="@+id/btnM5Live"
+            android:layout_marginTop="61dp"
+            android:layout_below="@+id/BtnM5Wiki"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Music Videos"
+            android:id="@+id/btnm5music"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="116dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Detaiils"
+            android:id="@+id/BtnM5Wiki"
+            android:layout_below="@+id/btnmjmusic"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="68dp" />
+    </RelativeLayout>
+
+</FrameLayout>
